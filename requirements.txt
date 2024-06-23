@@ -1,0 +1,10 @@
+requests
+spacy
+rake-nltk
+datetime
+streamlit
+groq
+langchain
+langchain-groq
+langchain_google_genai
+
