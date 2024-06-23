@@ -3,7 +3,7 @@ import json
 from groq import Groq
 import streamlit as st
 from datetime import datetime
-GROQ_API_KEY = ""
+GROQ_API_KEY = "Enter Your Api"
 def is_weather_related(query, GROQ_API_KEY):
     messages = [
         {
