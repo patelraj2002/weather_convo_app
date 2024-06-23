@@ -48,7 +48,7 @@ def get_city(query, GROQ_API_KEY):
     return city
 
 def get_weather(city):
-    api_key = "b3c62ae7f7ad5fc3cb0a7b56cb7cbda6"
+    api_key = "Enter Your WeatherMap API Key"
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
     try:
         response = requests.get(url)
